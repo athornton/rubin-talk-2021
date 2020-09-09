@@ -264,6 +264,11 @@ ten seconds.
 About 10 billion galaxies, and about 10 billion stars.  So everyone can
 have one of each, with plenty to spare.
 
+If I did my math right, the linear distance spanned by a pixel (0.6") at
+the limit of the observable universe (46.1 billion light years distant)
+is about 134,000 light years.  So a Milky Way-sized structure in the
+early universe would just about span a pixel in our detector.
+
 ** Who gets to use this?
 
 + All astronomers affiliated with US or Chilean institutions.
