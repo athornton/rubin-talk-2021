@@ -2,7 +2,7 @@
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+REVEAL_HLEVEL: 2
 #+REVEAL_THEME: white
-#+REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_EXTRA_CSS: ./assets/local.css
 #+REVEAL_INIT_OPTIONS: slideNumber: h/v
 #+REVEAL_PLUGINS: (highlight)
 #+AUTHOR: Adam Thornton
@@ -119,10 +119,14 @@ every night, for ten years, weather permitting.
 
 *** When will we do that?
 
-We expect to begin science operations in late 2022, although COVID-19
-has interfered (and continues to interfere) with our schedule, so timing
-is a bit uncertain.  We have successfully taken pictures of the sky with
-the auxiliary telescope at the summit already.
+We are scheduled to begin science operations in October 2022.
+
+However, COVID-19 has interfered (and continues to interfere) with our
+schedule, so timing is uncertain.  We will be re-baselining the project
+and expect a six-to-twelve-month delay.
+
+We have successfully taken pictures of the sky with the auxiliary
+telescope at the summit already.
 
 ** Data Volume
 
