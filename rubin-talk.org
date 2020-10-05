@@ -226,6 +226,17 @@ basketball court.  Remember: 1000 of those images are produced a night.
 
 [[./assets/camera.png]]
 
+*** Active (not adaptive) optics
+
+We use active optics to sharpen the picture.  These are a system of
+actuators to (on a timescale of about a second) compensate for mirror
+deformation caused by temperature fluctuations, wind, et cetera.
+
+We cannot use adaptive optics (much higher frequency, order of 100Hz) to
+compensate for atmospheric distortion as many narrow-field telescopes
+do, because our field of view is large and the air within the cone of
+sight is nowhere near homogeneous.
+
 ** Observatory Cost
 
 Total construction cost is about a half-billion (2013) dollars.
