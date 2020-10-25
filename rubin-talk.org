@@ -331,7 +331,7 @@ lifetime.
 
 300,000 supernovae per year.  Current rate, across all instruments, is
 7000 a year.  One supernova goes off in a Milky Way-sized galaxy every
-few hundred years.  One explodes in the observable universe once every
+few dozen years.  One explodes in the observable universe once every
 ten seconds.
 
 About 10 billion galaxies, and about 10 billion stars.  So everyone can
