@@ -20,6 +20,10 @@ and [[https://confluence.lsstcorp.org/display/LKB/LSST+Key+Numbers][LSST Key Num
 
 Images, except when otherwise noted: Rubin Observatory/NSF/AURA
 
+[[https://athornton.github.io/rubin-talk-2020/][This talk]].  
+
+[[./assets/qr.png]]
+
 ** What is the Rubin Observatory?
 
 It is the observatory that will carry out the Legacy Survey Of Space And
@@ -421,3 +425,4 @@ Neither of my degrees are in scientific or engineering fields.
 
 I have never taken an astronomy course.
 
+[[./assets/qr.png]]
