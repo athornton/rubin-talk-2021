@@ -255,9 +255,7 @@ Grand total, one billion dollars in round numbers.
 
 There are four major pillars of the LSST research program:
 
-+ Comprehensive solar system survey.  It's an important component of
-  identifying 90% of 140m-or-bigger asteroids in earth-crossing orbits
-  by 2040.  Also useful for finding Trans-Neptunian Objects.
++ Comprehensive solar system survey.
 + Milky Way structure and stellar content.  We should observe about 10
   billion stars, mostly within the Milky Way.
 + Transient phenomena at optical wavelengths.  AGNs, SN1Ae, visual
@@ -265,6 +263,62 @@ There are four major pillars of the LSST research program:
 + Dark Energy and Dark Matter.  Is the Hubble Constant the same in every
   direction?  Only 4% of the mass/energy budget of the universe is
   baryonic matter and EM radiation.  What's the rest of it?
+
+*** Solar System
+
++ Congressional mandate to detect 90% of PHAs: objects 140m diameter or
+  larger by 2028.  The LSST is a major component of that.  140m is a
+  regional disaster, not a dinosaur-killer.  We expect to find about
+  100,000 Near Earth Asteroids (not all of them PHAs).
++ We also expect to find about 5.5 million Main Belt Asteroids, 280,000
+  Jovian Trojans, and 40,000 Trans-Neptunian Objects.
++ "Deep, Fast, and Wide" is ideal for finding faint small solar system
+  objects that move up to the order of degrees a night.
++ Interplanetary coronal mass ejection and its interaction with comets.
+
+*** Milky Way
+
++ Very low mass stars and brown dwarfs in the local neighborhood.
++ Systematic survey of Southern Hemisphere star clusters.
++ Roughly 10 billion main sequence stars mapped in our galaxy out to
+  100kpc, and metallicity over the same volume (because 200 million of
+  those stars will be near turn-off main sequence).
++ Much better view of clumps and streams within the Galaxy (bulge and
+  disk) and its halo.
+
+*** Transient Phenomena
+
++ Much better characterization of Cepheid variables, enabling more
+  precision of the distance ladder.
++ Vastly more SN1Ae than observed before, out to the limits of the
+  observable universe.
++ Quieter star-death events than SN1Ae: intermediate-mass collapse
+  without remnant ("macronovae"), core-collapse straight to black hole,
+  mergers of exotic objects.
++ This is the perfect instrument for optical followup of LIGO events.
+  LIGO says "it's over there somewhere"; even without doing a special
+  pointing, we have a picture of "over there" (assuming Southern
+  Hemisphere) every three days.
+
+*** Dark Matter and Dark Energy
+
++ We will observe a great many quasars, many of which will be
+  gravitationally lensed by intervening galaxies: the six bands make it
+  possible to precisely measure the delay between lensed images.  That
+  in turn gives us a picture of the mass in the lensing galaxy, which
+  tells us where the dark matter is.
++ Weak (statistical) lensing at cosmological scale: galaxies are,
+  presumably oriented randomly with respect to us, with no bias.  So if
+  in a (large) region, we see that more appear elliptical in one
+  direction than in another, we can infer the existence of a lens, and
+  therefore mass, between us and them.
++ The improvements in the distance ladder from lensing and SN1ae can let
+  us constrain the Hubble Constant's value (and its evolution over time,
+  which is presumed to be a linear function of proper distance) more
+  precisely.  That will let us rule out some dark energy theories.
++ And of course if the Hubble Constant is /not/ (statistically) constant
+  across the sky at a given proper distance, that's a Nobel for
+  /someone/.
 
 *** A few mind-blowing numbers
 
@@ -280,9 +334,10 @@ About 10 billion galaxies, and about 10 billion stars.  So everyone can
 have one of each, with plenty to spare.
 
 If I did my math right, the linear distance spanned by a pixel (0.6") at
-the limit of the observable universe (46.1 billion light years distant)
-is about 134,000 light years.  So a Milky Way-sized structure in the
-early universe would just about span a pixel in our detector.
+the limit of the observable universe (comoving distance: 46.1 billion
+light years) is about 134,000 light years.  So a Milky Way-sized
+structure in the early universe would just about span a pixel in our
+detector.
 
 ** Who gets to use this?
 
@@ -299,24 +354,28 @@ early universe would just about span a pixel in our detector.
 
 ** Data availability
 
-There are three levels of data products
+There are three levels of "data products" that will come out of the
+survey.  Effectively, they are alerts, catalogues, and studies.
 
 *** Level 1
 
-Level 1 products are alerts: something has changed significantly relative
-to its historical brightness or position.  We have to issue these within
-60 seconds of the shutter closing, and they can be consumed by anyone
-with data rights.  We've kept this simple: anything that is present, and
-wasn't before, or isn't, and was before, with a certainty of 5σ, done
-with an image-subtraction algorithm.
+Level 1 products are alerts: something has changed significantly
+relative to its historical brightness or position.  We have to issue
+these within 60 seconds of the shutter closing, and they can be consumed
+by anyone with data rights.  We've kept this simple: anything that is
+present, and wasn't before, or isn't, and was before, with a certainty
+of 5σ (that is, p-value of 1 in 3.5 million), done with an
+image-subtraction algorithm.
 
 *** Level 1 volume
 
-It's also an enormous firehose: on the order of 10 million alerts a
-night.  So there will be selective brokers (community-written, not Rubin
-Observatory-supplied) that filter the Rubin-provided stream with further
-processing to determine what class of event an alert is, and pass
-selected alerts downstream.  Those will not have sub-minute latency.
+It's an enormous firehose: on the order of 10 million alerts a night.
+(So, statistically, three of those will just be very unlucky noise, not
+real events!)  There will therefore be selective brokers
+(community-written, not Rubin Observatory-supplied) that filter the
+Rubin-provided stream with further processing to determine what class of
+event an alert is, and pass selected alerts downstream.  Those will /not/
+have sub-minute latency.
 
 *** Level 2
 
@@ -351,8 +410,14 @@ particular focus is the interactive notebook aspect of the Science
 Platform.
 
 I have worked in IT as a system administrator, software developer,
-consultant, engineer, and plenty of other roles, for more than 30
+consultant, software engineer, and many other roles, for more than 30
 years.
+
+/Unsolicited Avuncular Advice: find a job doing something you like,/
+/because it's much easier to get good at something you enjoy than/
+/something you hate./
+
+Neither of my degrees are in scientific or engineering fields.
 
 I have never taken an astronomy course.
 
