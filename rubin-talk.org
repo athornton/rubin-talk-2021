@@ -233,8 +233,8 @@ sensor rafts).  The first full-focal-plane images have just been made
 (September 2020): [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]],
 [[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
 
-374 4K HDTVs to display a complete image.  That'd tile half a
-basketball court.  Remember: 1000 of those images are produced a night.
+374 4K HDTVs to display a complete image.  That'd tile half a basketball
+court.  Remember: about 1000 of those images are produced a night.
 
 *** Camera picture
 
@@ -274,9 +274,8 @@ There are four major pillars of the LSST research program:
   billion stars, mostly within the Milky Way.
 + Transient phenomena at optical wavelengths.  AGNs, SN1Ae, visual
   confirmation of LIGO detections...
-+ Dark Energy and Dark Matter.  Is the Hubble Constant the same in every
-  direction?  Only 4% of the mass/energy budget of the universe is
-  baryonic matter and EM radiation.  What's the rest of it?
++ Dark Energy and Dark Matter.  Only 4% of the mass/energy budget of the
+  universe is baryonic matter and EM radiation.  What's the rest of it?
 
 *** Solar System
 
@@ -322,7 +321,7 @@ There are four major pillars of the LSST research program:
   in turn gives us a picture of the mass in the lensing galaxy, which
   tells us where the dark matter is.
 + Weak (statistical) lensing at cosmological scale: galaxies are,
-  presumably oriented randomly with respect to us, with no bias.  So if
+  presumably, oriented randomly with respect to us, with no bias.  So if
   in a (large) region, we see that more appear elliptical in one
   direction than in another, we can infer the existence of a lens, and
   therefore mass, between us and them.
@@ -351,7 +350,8 @@ If I did my math right, the linear distance spanned by a pixel (0.6") at
 the limit of the observable universe (comoving distance: 46.1 billion
 light years) is about 134,000 light years.  So a Milky Way-sized
 structure in the early universe would just about span a pixel in our
-detector.
+detector.  Except that it's really more complicated than that because of
+the stretching of spacetime, but you get the idea.
 
 ** Who gets to use this?
 
