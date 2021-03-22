@@ -136,16 +136,15 @@ ten years, weather (and other factors) permitting.
 
 *** When will we do that?
 
-COVID-19 affected our schedule, so timing is somewhat uncertain.  We are
-in the process of re-baselining the project with our funding agencies,
-and currently we expect to begin science operations on October 1, 2023.
+We are scheduled to begin science operations in October 2022.
 
-It's not just the days lost because the Chilean government has closed
-the road to the summit, or La Serena is in quarantine, or no non-Chilean
-staff can travel to the country let alone the site, but also
-second-order effects such as "and then the observatory sat without a
-roof for an extra winter," and of course there are many components that
-can't be worked on until the dome is closed.
+However, COVID-19 has interfered (and continues to interfere) with our
+schedule, so timing is uncertain.  We will be re-baselining the project
+and expect a six-to-twelve-month delay.
+
+We successfully took pictures of the sky with the auxiliary telescope at
+the summit before the summit site was closed due to the pandemic.  We
+reopened the summit in mid-October 2020.
 
 ** Data Volume
 
