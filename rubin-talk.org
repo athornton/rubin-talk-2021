@@ -15,8 +15,11 @@ Almost everything I am going to tell you can be found in the [[https://www.lsst.
 Book]].  It's quite dry and a little out of date, but it is the
 definitive reference for the general scientific community.
 
-Lighter-weight resources: [[https://www.ted.com/talks/andrew_connolly_what_s_the_next_window_into_our_universe][Andy Connolly Ted Talk]] and [[https://arxiv.org/pdf/0805.2366.pdf][LSST Overview Paper]]
-and [[https://confluence.lsstcorp.org/display/LKB/LSST+Key+Numbers][LSST Key Numbers]].
+The [[https://arxiv.org/pdf/0805.2366.pdf][LSST Overview Paper]] is a good--but still dense--summary of the
+Science Book.
+
+Lighter-weight resources: [[https://www.ted.com/talks/andrew_connolly_what_s_the_next_window_into_our_universe][Andy Connolly Ted Talk]] and 
+and [[https://www.lsst.org/scientists/keynumbers][LSST Key Numbers]].
 
 Images, except when otherwise noted: Rubin Observatory/NSF/AURA
 
@@ -32,10 +35,14 @@ Time.
 It was formerly known as the Large Synoptic Survey Telescope (LSST).
 The name was changed in late 2019 to honor [[https://en.wikipedia.org/wiki/Vera_Rubin][Vera Rubin]].
 
-She noticed that galaxies could not behave as they did if the mass was
-where the light was.  Since understanding dark matter and dark energy is
-among the primary purposes of the survey, the renaming of the
-observatory in her honor was particularly fitting.
+Rubin performed the first rigorous quantitative work proving that
+galaxies could not behave as they did if the mass was where the light
+was, giving firm experimental confirmation of Zwicky's "Dark Matter,"
+hypothesized in 1933.
+
+Since understanding dark matter and dark energy is among the primary
+purposes of the survey, the renaming of the observatory in her honor was
+particularly fitting.
 
 *** Vera Rubin
 
@@ -77,6 +84,12 @@ The building has considerably more roof now.
 
 [[./assets/Summit-Dusk-2018-05-18.png]]
 
+*** A couple of cool videos
+
+Top-end assembly installation: https://youtu.be/NOaS8jzkTMI
+
+Timelapse of construction: https://youtu.be/41_VUIPwWAk
+
 *** Why there?
 
 This location is excellent for optical astronomy (including infrared)
@@ -109,17 +122,17 @@ to execute the Legacy Survey Of Space And Time (LSST).
 
 The LSST is a ten-year survey of the southern sky.  Six bands, from
 near-ultraviolet to near-infrared (320-1080nm).  We will get a complete
-picture of the Southern sky (in one band or another) every three nights
+picture of the Southern sky (in at least one band) every three nights
 (-ish, dependent on survey cadence).  This will enable detection of
 faint transient phenomena with a much greater degree of completeness
 than ever before.
 
 *** How do we do that?
 
-We will make approximately 1000 visits a night.  Each visit is either
-one 30-second or two 15-second exposures.  Each picture is 3.2
-gigapixels.  Then we slew the telescope and do it again, all night,
-every night, for ten years, weather permitting.
+We will make approximately 1000 visits a night, and take a picture of
+the sky with a 30-second exposure time.  Each picture is 3.2 gigapixels.
+Then we slew the telescope and do it again, all night, every night, for
+ten years, weather (and other factors) permitting.
 
 *** When will we do that?
 
@@ -129,8 +142,9 @@ However, COVID-19 has interfered (and continues to interfere) with our
 schedule, so timing is uncertain.  We will be re-baselining the project
 and expect a six-to-twelve-month delay.
 
-We have successfully taken pictures of the sky with the auxiliary
-telescope at the summit already.
+We successfully took pictures of the sky with the auxiliary telescope at
+the summit before the summit site was closed due to the pandemic.  We
+reopened the summit in mid-October 2020.
 
 ** Data Volume
 
@@ -162,13 +176,14 @@ The telescope will make 1000 thirty-second visits a night, with five
 seconds in between each visit to repoint and damp the telescope.
 
 We have to move it from one location on the sky to another and have it
-settle in 5 seconds for a change of 3.5° elevation and 7°
-azimuth: 2 seconds of motion and 3 seconds to settle to 0.1".
+settle in 4.8 seconds for a change of 3.5° elevation and 7° azimuth:
+2-ish seconds of motion and 3-ish seconds to settle to 0.1".
 
-In order to be able to move that quickly, the telescope has to be
-extremely rigid.  The whole assembly weighs about 450 tons.  The azimuth
-motors total 400 HP and the elevation motors 50 HP.  The rim of the
-assembly is moving at about 30 mph when we are repointing.
+In order to be able to move that quickly and settle that fast, the
+telescope has to be extremely rigid.  The whole assembly weighs about
+450 tons.  The azimuth motors total 400 HP and the elevation motors 50
+HP.  The rim of the assembly is moving at about 30 mph when we are
+repointing.
 
 *** Telescope optical design
 
@@ -192,7 +207,8 @@ pixel is about 0.6".
 
 Single-visit depth is magnitude 24.7.  Stacked depth (to 5σ detection)
 over the survey is magnitude 27.5: 30/400 million times fainter than
-naked eye detection.  (The detectors saturate at magnitude 16.)
+naked eye detection.  (The detectors saturate at magnitude 16, and these
+magnitudes are in our r-band, which is our deepest.)
 
 It will be the deepest ground-based survey telescope.
 
@@ -200,7 +216,7 @@ It will be the deepest ground-based survey telescope.
 
 Étendue is the product of field of view and the primary mirror area.
 It's "how much light can a telescope collect in a given time?"  The
-Simonyi Survey Telescope's étendue is 319 m²°², more than an order of
+Simonyi Survey Telescope's étendue is 319 (m°)², more than an order of
 magnitude more than any other instrument.  Hence: wide, fast, deep.
 
 *** Field of View simulated image
@@ -223,8 +239,8 @@ sensor rafts).  The first full-focal-plane images have just been made
 (September 2020): [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]],
 [[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
 
-374 4K HDTVs to display a complete image.  That'd tile half a
-basketball court.  Remember: 1000 of those images are produced a night.
+374 4K HDTVs to display a complete image.  That'd tile half a basketball
+court.  Remember: about 1000 of those images are produced a night.
 
 *** Camera picture
 
@@ -264,9 +280,8 @@ There are four major pillars of the LSST research program:
   billion stars, mostly within the Milky Way.
 + Transient phenomena at optical wavelengths.  AGNs, SN1Ae, visual
   confirmation of LIGO detections...
-+ Dark Energy and Dark Matter.  Is the Hubble Constant the same in every
-  direction?  Only 4% of the mass/energy budget of the universe is
-  baryonic matter and EM radiation.  What's the rest of it?
++ Dark Energy and Dark Matter.  Only 4% of the mass/energy budget of the
+  universe is baryonic matter and EM radiation.  What's the rest of it?
 
 *** Solar System
 
@@ -312,7 +327,7 @@ There are four major pillars of the LSST research program:
   in turn gives us a picture of the mass in the lensing galaxy, which
   tells us where the dark matter is.
 + Weak (statistical) lensing at cosmological scale: galaxies are,
-  presumably oriented randomly with respect to us, with no bias.  So if
+  presumably, oriented randomly with respect to us, with no bias.  So if
   in a (large) region, we see that more appear elliptical in one
   direction than in another, we can infer the existence of a lens, and
   therefore mass, between us and them.
@@ -331,7 +346,7 @@ lifetime.
 
 300,000 supernovae per year.  Current rate, across all instruments, is
 7000 a year.  One supernova goes off in a Milky Way-sized galaxy every
-few hundred years.  One explodes in the observable universe once every
+few dozen years.  One explodes in the observable universe once every
 ten seconds.
 
 About 10 billion galaxies, and about 10 billion stars.  So everyone can
@@ -341,29 +356,31 @@ If I did my math right, the linear distance spanned by a pixel (0.6") at
 the limit of the observable universe (comoving distance: 46.1 billion
 light years) is about 134,000 light years.  So a Milky Way-sized
 structure in the early universe would just about span a pixel in our
-detector.
+detector.  Except that it's really more complicated than that because of
+the stretching of spacetime, but you get the idea.
 
 ** Who gets to use this?
 
 + All astronomers affiliated with US or Chilean institutions.
-+ All astronomers affiliated with institutions that have bought into the
-  project either with money or with in-kind contributions (labor,
-  software, et cetera).
++ All astronomers affiliated with institutions that have data rights
+  obtained through in-kind contributions (labor, software, et cetera).
 + Their collaborators, so pretty much all professional astronomers who
   have friends, so everyone except a few of theorists.
-+ But after two years, /everyone/.  (Possibly four years after
-  collection: one year for processing, so if data is collected  early 2025,
-  it won't be published as part of the catalogue until the end of 2026,
-  and won't be released to the public until the end of 2028.)
++ But two years after initial publication to data rights holders,
+  /everyone/.  (Up to four years after collection: it takes one year for
+  processing, so if data is collected early 2025, it won't be published
+  to data rights holders as part of the catalogue until the end of 2026,
+  and won't be released to the general public until the end of 2028.)
 
 ** Data availability
 
-There are three levels of "data products" that will come out of the
-survey.  Effectively, they are alerts, catalogues, and studies.
+There are three categories of "data products" that will come out of the
+survey.  Effectively, they are alerts, catalogues, and user generated
+products.
 
-*** Level 1
+*** Prompt Products
 
-Level 1 products are alerts: something has changed significantly
+Prompt products are alerts: something has changed significantly
 relative to its historical brightness or position.  We have to issue
 these within 60 seconds of the shutter closing, and they can be consumed
 by anyone with data rights.  We've kept this simple: anything that is
@@ -371,7 +388,7 @@ present, and wasn't before, or isn't, and was before, with a certainty
 of 5σ (that is, p-value of 1 in 3.5 million), done with an
 image-subtraction algorithm.
 
-*** Level 1 volume
+*** Prompt product volume
 
 It's an enormous firehose: on the order of 10 million alerts a night.
 (So, statistically, three of those will just be very unlucky noise, not
@@ -381,22 +398,23 @@ Rubin-provided stream with further processing to determine what class of
 event an alert is, and pass selected alerts downstream.  Those will /not/
 have sub-minute latency.
 
-*** Level 2
+*** Data Releases
 
-Level 2 products are our annual catalogues.  Each year, we have to
+Data Releases are our annual catalogues.  Each year, we have to
 reprocess all the data collected thus far, in order to get our coadded
-(stacked) data correct.  This too is immediately available upon
-production to people with data rights, and two years later for the public.
+(stacked) data correct.  This process will take all year.  Once
+published, this too is immediately available to people with data rights,
+and two years later for the public.
 
-Level 1 and Level 2 products are, of course, mostly automated, and the
+Alerts and Data Releases are, of course, mostly automated, and the
 source code for their production will be publicly available.
 
-*** Level 3
+*** User Generated Products
 
-Level 3 products are things derived from the first two categories to
-support particular science goals.  This is generally "what I'm writing
-the paper about" and will usually remain proprietary to the group
-producing the research.
+User generated products are things derived from the first two categories
+to support particular science goals.  This is generally "what I'm
+writing the paper about" and will usually remain proprietary to the
+group producing the research.
 
 ** EPO
 
