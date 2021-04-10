@@ -362,11 +362,12 @@ the stretching of spacetime, but you get the idea.
 
 ** Who gets to use this?
 
-+ All astronomers affiliated with US or Chilean institutions.
++ All astronomers affiliated with US or Chilean institutions.  (In
+  practice, anyone with such an affiliation.)
 + All astronomers affiliated with institutions that have data rights
   obtained through in-kind contributions (labor, software, et cetera).
 + Their collaborators, so pretty much all professional astronomers who
-  have friends, so everyone except a few of theorists.
+  have friends; thus, everyone except a few theorists.
 + But two years after initial publication to data rights holders,
   /everyone/.  (Up to four years after collection: it takes one year for
   processing, so if data is collected early 2025, it won't be published
